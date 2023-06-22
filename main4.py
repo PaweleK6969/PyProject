@@ -6,7 +6,7 @@ y = False
 print(5 == 5)
 # Czy są rózne?
 print(5 != 1)
-#Czy x jest wiekszy od x?
+# Czy x jest wiekszy od x?
 print(5 > 5)
 # Czy x jest mniejszy od x?
 print(5 < 5)
@@ -26,7 +26,13 @@ if 5 > 5:
     print("Większe")
 if 5 <= 10:
     print("Mniejsze")
-if 5 > 10:
-    print("True")
-else:
-    print("False")
+# else + if = elif
+# elif = czy x moze jest mniejszy od y?
+# if i else moze byc tylko jeden, elif moze byc nieskonczonosc
+a = 1
+b = 1
+
+if a > b:
+    print("A Większe od B")
+elif x < y:
+    print("A Mniejsze od B")
