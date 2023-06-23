@@ -16,3 +16,16 @@ if wiek2 <= 12 or kasa2 >= 30:
     print("3) 👍")
 else:
     print("3) 👎")
+
+# operator not odwraca wartosc logiczna np z false na true
+
+if not wiek > 12 or kasa >= 30:
+    print("4) 👍")
+else:
+    print("4) 👎")
+
+#
+if True or False and False:
+    print("Prawda")
+else:
+    print("Fałsz")

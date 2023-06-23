@@ -36,3 +36,5 @@ if a > b:
     print("A Większe od B")
 elif x < y:
     print("A Mniejsze od B")
+else:
+    print("A jest ROWNE od B")
